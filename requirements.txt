@@ -1,0 +1,12 @@
+cryptography
+resolvelib<0.9.0
+filelock<4,>=3.2
+platformdirs<3,>=2
+flask==3.0.3
+Werkzeug>=3.0.0 
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+pylint==3.2.6
+pytest==8.3.1
+locust==2.23.1
