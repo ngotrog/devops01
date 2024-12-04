@@ -1,1 +1,1 @@
-locust -f locustpage.py --host https://trongnv-webapp.azurewebsites.net
+locust -f locustpage.py --host https://trongnv-app.azurewebsites.net
