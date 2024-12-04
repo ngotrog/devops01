@@ -37,6 +37,9 @@ Run make all to install dependency, test and lint your code using command: make 
 * Testing result:
 After above step you see dependencies are installed, lint rate 10/10 and tests are passed as below:
 ![Architecture Diagram](./Images/MakeAll.png )
+
+* Output of test run:
+![Architecture Diagram](./Images/OutputAction.png )
 #### Project running on Azure App Service
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
@@ -77,6 +80,14 @@ az webapp log tail -g trongnv11-rs --name trongnv-app
 
 ![Architecture Diagram](./Images/WebappLogs.png)
 
+* Running Azure App Service from Azure Pipelines automatic deployment
+![Architecture Diagram](./Images/AzurePipeline.png)
+
+ * Updated Load test an application using Locust
+ ![Architecture Diagram](./Images/locust-reponsetimes.png )
+
+ *Locust report
+ ![Architecture Diagram](./Images/locust-report.png)
 ## Demo
 
 Youtube link [Video introduction project]()
