@@ -60,9 +60,6 @@ Can go to the url and check as well:
 
 Note: The app service was created before.
 
-* Running Azure App Service from Azure Pipelines automatic deployment
-![Architecture Diagram](./Images/RunPipelineSuccess.png)
-
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
@@ -86,8 +83,13 @@ az webapp log tail -g trongnv11-rs --name trongnv-app
  * Updated Load test an application using Locust
  ![Architecture Diagram](./Images/locust-reponsetimes.png )
 
- *Locust report
+ * Locust report
  ![Architecture Diagram](./Images/locust-report.png)
+## Enhancements
+TODO: A short description of how to improve the project in the future>
+
+* UI design
+* Pipeline improvement for dev, staging, production
 ## Demo
 
 Youtube link [Video introduction project]()
