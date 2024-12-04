@@ -3,7 +3,7 @@ This project demonstrate how to manage and devlop a python project using CI/CD w
 [![Python application test with GitHub Actions](https://github.com/ngotrog/devops01/actions/workflows/main.yml/badge.svg)](https://github.com/ngotrog/devops01/actions/workflows/main.yml)
 ## Project Plan
 * Trello plan: https://trello.com/b/T5kKjvyj/q4-2024-trongnv11-udacity-devopsproject-2
-abc
+
 * A link to a spreadsheet: https://docs.google.com/spreadsheets/d/1c76LrXG_IrZBJp0JiLOM2jbe4nSYSrsRsbuvpzVMhE0/edit?usp=sharing
 
 ## Instructions
@@ -92,4 +92,4 @@ TODO: A short description of how to improve the project in the future>
 * Pipeline improvement for dev, staging, production
 ## Demo
 
-Youtube link https://www.youtube.com/watch?v=-u9GCI34VyE
+Youtube link [https://www.youtube.com/watch?v=-u9GCI34VyE](https://www.youtube.com/watch?v=wHFnt9cMPFk)
