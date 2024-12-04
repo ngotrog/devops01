@@ -1,6 +1,6 @@
 # Overview
 This project demonstrate how to manage and devlop a python project using CI/CD with Azure Devops
-
+[![Python application test with GitHub Actions](https://github.com/ngotrog/devops01/actions/workflows/main.yml/badge.svg)](https://github.com/ngotrog/devops01/actions/workflows/main.yml)
 ## Project Plan
 * Trello plan: https://trello.com/b/T5kKjvyj/q4-2024-trongnv11-udacity-devopsproject-2
 
