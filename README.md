@@ -27,7 +27,7 @@ or
 
 `$ cd devops01`
 
-![Architecture Diagram](./Images/CloneCode.png )
+![Architecture Diagram](./Images/cloned-github.png )
 
 * Step testing 
 python -m venv myproject
@@ -36,10 +36,10 @@ Run make all to install dependency, test and lint your code using command: make 
 
 * Testing result:
 After above step you see dependencies are installed, lint rate 10/10 and tests are passed as below:
-![Architecture Diagram](./Images/MakeAll.png )
+![Architecture Diagram](./Images/make-all-result.png )
 
 * Output of test run:
-![Architecture Diagram](./Images/OutputAction.png )
+![Architecture Diagram](./Images/web-app-deploy-success.png )
 #### Project running on Azure App Service
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
@@ -69,7 +69,7 @@ Run prediction against a working devloyed Azure Application using command:
 $ chmod +xr make_predict_azure_app.sh
 $ ./make_predict_azure_app.sh
 ```
-![Architecture Diagram](./Images/DeploySuccess_MakePredict.png )
+![Architecture Diagram](./Images/make_predict_azure_app.png )
 
 * Output of streamed log files from deployed application
 
@@ -92,4 +92,4 @@ TODO: A short description of how to improve the project in the future>
 * Pipeline improvement for dev, staging, production
 ## Demo
 
-Youtube link https://www.youtube.com/watch?v=-u9GCI34VyE
+Youtube link https://youtu.be/QfULnzeK45A
