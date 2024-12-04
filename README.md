@@ -92,4 +92,4 @@ TODO: A short description of how to improve the project in the future>
 * Pipeline improvement for dev, staging, production
 ## Demo
 
-Youtube link https://www.youtube.com/watch?v=-u9GCI34VyE)
+Youtube link https://www.youtube.com/watch?v=-u9GCI34VyE
