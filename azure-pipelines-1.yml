@@ -45,6 +45,17 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
+    - script: |
+        export PATH=$HOME/.local/bin:$PATH
+        make install
+      workingDirectory: $(projectRoot)
+      displayName: 'Make install'
+
+    - script: |
+        export PATH=$HOME/.local/bin:$PATH
+        make lint
+      workingDirectory: $(projectRoot)
+      displayName: 'Run lint tests'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
