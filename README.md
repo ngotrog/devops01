@@ -39,7 +39,7 @@ After above step you see dependencies are installed, lint rate 10/10 and tests a
 ![Architecture Diagram](./Images/make-all-result.png )
 
 * Output of test run:
-![Architecture Diagram](./Images/web-app-deploy-success.png )
+![Architecture Diagram](./Images/OutputAction.png )
 #### Project running on Azure App Service
 Go to your Github Account and enable Github Actions
 Replace .yml file with your code to make CI when any push actions perform
@@ -53,10 +53,10 @@ Run your app using command: python app.py
 az webapp up --name trongnv-app --resource-group trongnv11-rs --runtime PYTHON:3.9 --sku B1
 
 And see the result deploy successfully:
-![Architecture Diagram](./Images/DeploySuccess_MakePredict.png )
+![Architecture Diagram](./Images/make_predict_azure_app.png )
 
 Can go to the url and check as well:
-![Architecture Diagram](./Images/WebAppSuccess.png )
+![Architecture Diagram](./Images/web-app-deploy-success.png )
 
 Note: The app service was created before.
 
